@@ -1,0 +1,107 @@
+
+
+:root {
+  --pale-grey: #f5fcfb;
+  --aqua-marine: #50e3c2;
+  --reddish-orange: #f95b25;
+}
+
+
+@font-face{
+src:url('fonts/OpenSans-Light.ttf');
+font-family:'OpenSans-Light';
+}
+@font-face{
+src:url('fonts/OpenSans-Regular.ttf');
+font-family:'OpenSans-Regular';
+}
+@font-face{
+src:url('fonts/OpenSans-Bold.ttf');
+font-family:'OpenSans-Bold';
+}
+@font-face{
+src:url('fonts/OpenSans-Semibold.ttf');
+font-family:'OpenSans-Semibold';
+}
+@font-face{
+src:url('fonts/OpenSans-ExtraBold.ttf');
+font-family:'OpenSans-Extrabold';
+}
+@font-face{
+src:url('fonts/helveticaneue-lt.ttf');
+font-family:'HelveticaNeue-Light';
+}
+
+/* Text styles */
+
+.article_headline {
+  font-family: OpenSans-Extrabold;
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.article_blurb {
+  font-family: OpenSans;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #000000;
+}
+
+.details_headline {
+  font-family: OpenSans-Light;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.article_content {
+  font-family: OpenSans;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #000000;
+}
+
+.article_source {
+  font-family: OpenSans-Light;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.news_sidebar_highlighted {
+  font-family: OpenSans-Semibold;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: -0.3px;
+  color: #4f4f4f;
+}
+
+.news_sidebar_normal {
+  font-family: OpenSans-Semibold;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: -0.3px;
+  color: #a8a8a8;
+}
+
+.article_author {
+  font-family: OpenSans;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #000000;
+}
+
+.article_timestamp {
+  font-family: OpenSans;
+  font-size: 12px;
+  color: #474747;
+}
+
+.dateline {
+  font-family: OpenSans;
+  font-size: 11px;
+  color: #565656;
+}

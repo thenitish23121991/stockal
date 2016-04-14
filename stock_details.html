@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi" />
+
+<link rel="stylesheet" type="text/css" href="css/stock_details.css" />
+<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="upper_container">
+
+<div class="stocks_container">
+<div class="single_stock aapl_stock"><div class="single_stock_text">AAPL</div></div>
+<div class="single_stock aapl_stock"><div class="single_stock_text">GOOG</div></div>
+<div class="single_stock aapl_stock"><div class="single_stock_text">3M</div></div>
+<div class="single_stock aapl_stock"><div class="single_stock_text">UIO</div></div>
+<div class="single_stock aapl_stock"><div class="single_stock_text">RSYM</div></div>
+<div class="single_stock aapl_stock"><div class="single_stock_text">TKRT</div></div>
+<div class="single_stock aapl_stock"><div class="single_stock_text">HYMLF</div></div>
+<div class="single_stock aapl_stock"><div class="single_stock_text">ICPT</div></div>
+<div class="single_stock aapl_stock"><div class="single_stock_text">LLY</div></div>
+<div class="single_stock aapl_stock"><div class="single_stock_text">ULTA</div></div>
+<div class="single_stock aapl_stock"><div class="single_stock_text">ISRG</div></div>
+<div class="single_stock aapl_stock"><div class="single_stock_text">IMRB</div></div>
+<div class="single_stock aapl_stock"><div class="single_stock_text">RIT</div></div>
+</div>
+
+<div class="stocks_top_rectangle">
+
+<div class="stock_selected">
+</div>
+
+<div class="stocks_top_amount">
+$768
+<div class="stocks_top_amount_since">
+34%
+<div class="icon_arrow_up_small">
+
+</div>
+</div>
+</div>
+<div class="stocks_top_goog">
+<div class="stocks_top_goog_name">GOOG</div>
+<div class="stock_top_name">
+Alphabet Inc.
+</div>
+</div>
+
+<div class="stocks_top_download">
+<div class="stocks_icon_fav">
+
+</div>
+
+<div class="stocks_top_watchlist">
+<div class="watchlist_top">For Watchlists</div>
+<div class="watchlist_bottom">Download our app</div>
+</div>
+</div>
+
+<div class="stocks_top_search">
+<input type="text" name="stocks_search" id="stocks_search_field" class="stocks_top_search_field" placeholder="Search other stocks" />
+</div>
+
+
+
+</div>
+<div class="stocks_bottom_rectangle">
+
+<div class="stocks_bottom_single" id="stocks_bottom_analyst">
+<div class="stocks_bottom_text">
+Analyst's Opinion
+</div>
+<div class="stocks_bottom_infographic">
+<div class="stocks_bottom_circle">
+<div class="stocks_bottom_circle_text">
+70%
+<div class="stocks_bottom_buy">
+BUY
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="stocks_bottom_single" id="stocks_bottom_predictive">
+<div class="stocks_bottom_text">
+Predictive Analysis
+</div>
+<div class="stocks_bottom_infographic">
+<div class="stocks_bottom_circle">
+<div class="stocks_bottom_circle_text">
+<img src="images/icon_arrow_up_small.png" />
+<div class="bottom_circle_inner_text">Positive</div>
+<div class="stocks_bottom_buy">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="stocks_bottom_single" id="stocks_bottom_social_media">
+<div class="stocks_bottom_text">
+Social Media Pulse
+</div>
+<div class="stocks_bottom_infographic">
+<div class="stocks_bottom_circle">
+<div class="stocks_bottom_circle_text">
+<img src="images/icon_pulse_high.png" />
+<div class="bottom_circle_inner_text">+67%</div>
+<div class="stocks_bottom_buy">
+Higher than normal
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="stocks_bottom_single" id="stocks_bottom_sentiment">
+<div class="stocks_bottom_text">
+Sentiment Index
+</div>
+<div class="stocks_bottom_infographic">
+<div class="stocks_bottom_circle">
+<div class="stocks_bottom_circle_text">
+<img src="images/icon_arrow_down.png" />
+<div class="bottom_circle_inner_text">-5%</div>
+<div class="stocks_bottom_buy">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="lower_container">
+
+<div class="lower_left_container">
+
+<div class="lower_left_title">
+Articles
+</div>
+
+<div class="lower_left_articles">
+
+<div class="lower_left_article">
+<div class="article_left_section">
+<div class="left_section_circle">
+<div class="section_circle_text">
+RE
+</div>
+</div>
+</div>
+
+<div class="article_right_section">
+<div class="article_right_top">
+Alphabet(GOOG) On Q3 2015 Results on the outset
+</div>
+<div class="article_right_time">
+2 HOURS AGO
+</div>
+</div>
+
+</div>
+
+<div class="lower_left_article">
+
+<div class="article_left_section">
+<div class="left_section_circle">
+<div class="section_circle_text">
+RE
+</div>
+</div>
+</div>
+
+<div class="article_right_section">
+<div class="article_right_top">
+Alphabet(GOOG) Q2 2015 Results have been released
+</div>
+<div class="article_right_time">
+2 HOURS AGO
+</div>
+</div>
+
+</div>
+
+
+
+<div class="lower_left_article">
+
+<div class="article_left_section">
+<div class="left_section_circle">
+<div class="section_circle_text">
+RE
+</div>
+</div>
+</div>
+
+<div class="article_right_section">
+<div class="article_right_top">
+Alphabet CEO Larry Page announces Q3 2015 Results
+</div>
+<div class="article_right_time">
+2 HOURS AGO
+</div>
+</div>
+
+</div>
+
+
+<div class="lower_left_article">
+
+<div class="article_left_section">
+<div class="left_section_circle">
+<div class="section_circle_text">
+RE
+</div>
+</div>
+</div>
+
+<div class="article_right_section">
+<div class="article_right_top">
+Alphabet(GOOG) On Q3 2015 Results at Morgan Stanley
+</div>
+<div class="article_right_time">
+2 HOURS AGO
+</div>
+</div>
+
+</div>
+
+
+<div class="lower_left_article">
+
+<div class="article_left_section">
+<div class="left_section_circle">
+<div class="section_circle_text">
+RE
+</div>
+</div>
+</div>
+
+<div class="article_right_section">
+<div class="article_right_top">
+Alphabet(GOOG) Q2 2015 Results have been released
+</div>
+<div class="article_right_time">
+2 HOURS AGO
+</div>
+</div>
+
+</div>
+
+
+
+<div class="lower_left_article">
+
+<div class="article_left_section">
+<div class="left_section_circle">
+<div class="section_circle_text">
+RE
+</div>
+</div>
+</div>
+
+<div class="article_right_section">
+<div class="article_right_top">
+Alphabet CEO Larry Page announces Q3 2015 Results
+</div>
+<div class="article_right_time">
+2 HOURS AGO
+</div>
+</div>
+
+</div>
+
+
+
+
+
+<div class="lower_left_article">
+
+<div class="article_left_section">
+<div class="left_section_circle">
+<div class="section_circle_text">
+RE
+</div>
+</div>
+</div>
+
+<div class="article_right_section">
+<div class="article_right_top">
+Alphabet(GOOG) On Q3 2015 Results at Morgan Stanley
+</div>
+<div class="article_right_time">
+2 HOURS AGO
+</div>
+</div>
+
+</div>
+
+
+
+
+</div>
+
+</div>
+
+<div class="lower_right_container">
+
+<div class="jcarousel-wrapper">
+
+<div class="jcarousel">
+<ul>
+<li>
+
+<div class="lower_right_title">
+DowJones On Q3 2015 Results this Year goes south east in revised poll
+</div>
+
+<div class="lower_right_author">
+
+<div class="right_author_name">
+Jack Johnson
+</div>
+<div class="right_author_time">
+2 hours ago
+</div>
+
+</div>
+
+<div class="article_blurb">
+In the absolute pleasant surprise scenario, the Q3 earnings have declined owing to the Paris attacks. The Jury is still out.
+</div>
+
+<div class="article_body">
+
+<p>
+And the manner with which the stocks have surprised the people is to some extent blamed on the EU dissent that is coming this weekend.
+</p>
+
+<p>
+Here goes some more text that is inline with the news article. I’m just adding some more text here to feel like an article. And then we have some extensive article news on the debacle that is there.
+</p>
+
+<p>
+We all have some gripe on another with the people around us. It is something amazing to do something about it. We all seem to understand the nexus of the culmination between the two parties that are mutuallly in war. We all have something to say about this scenerio.
+</p>
+
+<p>
+Here goes some more text that is inline with the news article. I’m just adding some more text here to feel like an article. And then we have some extensive article news on the debacle that is there.
+</p>
+
+<p>
+We all have some gripe on another with the people around us. It is something amazing to do something about it. We all seem to understand the nexus of the culmination between the two parties that are mutuallly in war. We all have something to say about this scenerio.
+</p>
+</div>
+
+
+<div class="article_pin_container">
+<div class="article_pin_left">
+<div class="article_left_title">
+Pin this article
+</div>
+<div class="article_left_desc">
+You can pin this article and create watchlists using Stockal app.
+</div>
+</div>
+<div class="article_pin_right">
+
+</div>
+</div>
+
+</li>
+
+
+<li>
+
+
+
+<div class="lower_right_title">
+DowJones On Q3 2015 Results this Year goes south east in revised poll
+</div>
+
+<div class="lower_right_author">
+
+<div class="right_author_name">
+Jack Johnson
+</div>
+<div class="right_author_time">
+2 hours ago
+</div>
+
+</div>
+
+<div class="article_blurb">
+In the absolute pleasant surprise scenario, the Q3 earnings have declined owing to the Paris attacks. The Jury is still out.
+</div>
+
+<div class="article_body">
+
+<p>
+And the manner with which the stocks have surprised the people is to some extent blamed on the EU dissent that is coming this weekend.
+</p>
+
+<p>
+Here goes some more text that is inline with the news article. I’m just adding some more text here to feel like an article. And then we have some extensive article news on the debacle that is there.
+</p>
+
+<p>
+We all have some gripe on another with the people around us. It is something amazing to do something about it. We all seem to understand the nexus of the culmination between the two parties that are mutuallly in war. We all have something to say about this scenerio.
+</p>
+
+<p>
+Here goes some more text that is inline with the news article. I’m just adding some more text here to feel like an article. And then we have some extensive article news on the debacle that is there.
+</p>
+
+<p>
+We all have some gripe on another with the people around us. It is something amazing to do something about it. We all seem to understand the nexus of the culmination between the two parties that are mutuallly in war. We all have something to say about this scenerio.
+</p>
+</div>
+
+
+<div class="article_pin_container">
+<div class="article_pin_left">
+<div class="article_left_title">
+Pin this article
+</div>
+<div class="article_left_desc">
+You can pin this article and create watchlists using Stockal app.
+</div>
+</div>
+<div class="article_pin_right">
+
+</div>
+</div>
+
+
+
+</li>
+
+
+
+</ul>
+</div>
+
+<!--
+<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+<a href="#" class="jcarousel-control-next">&rsaquo;</a>
+-->
+
+
+</div>
+
+<div class="article_single">
+
+<div class="lower_right_cat">
+Analysts's Opinion
+</div>
+
+<div class="lower_right_title">
+DowJones On Q3 2015 Results this Year goes south east in revised poll
+</div>
+
+<div class="lower_right_author">
+
+<div class="right_author_name">
+Jack Johnson
+</div>
+<div class="right_author_time">
+2 hours ago
+</div>
+
+</div>
+
+<div class="article_blurb">
+In the absolute pleasant surprise scenario, the Q3 earnings have declined owing to the Paris attacks. The Jury is still out.
+</div>
+
+<div class="article_body">
+
+<p>
+And the manner with which the stocks have surprised the people is to some extent blamed on the EU dissent that is coming this weekend.
+</p>
+
+<p>
+Here goes some more text that is inline with the news article. I’m just adding some more text here to feel like an article. And then we have some extensive article news on the debacle that is there.
+</p>
+
+<p>
+We all have some gripe on another with the people around us. It is something amazing to do something about it. We all seem to understand the nexus of the culmination between the two parties that are mutuallly in war. We all have something to say about this scenerio.
+</p>
+
+<p>
+Here goes some more text that is inline with the news article. I’m just adding some more text here to feel like an article. And then we have some extensive article news on the debacle that is there.
+</p>
+
+<p>
+We all have some gripe on another with the people around us. It is something amazing to do something about it. We all seem to understand the nexus of the culmination between the two parties that are mutuallly in war. We all have something to say about this scenerio.
+</p>
+</div>
+
+
+<div class="article_pin_container">
+<div class="article_pin_left">
+<div class="article_left_title">
+Pin this article
+</div>
+<div class="article_left_desc">
+You can pin this article and create watchlists using Stockal app.
+</div>
+</div>
+<div class="article_pin_right">
+
+</div>
+</div>
+
+</div>
+
+
+
+<div class="article_single">
+
+<div class="lower_right_cat">
+Analysts's Opinion
+</div>
+
+<div class="lower_right_title">
+DowJones On Q3 2015 Results this Year goes south east in revised poll
+</div>
+
+<div class="lower_right_author">
+
+<div class="right_author_name">
+Jack Johnson
+</div>
+<div class="right_author_time">
+2 hours ago
+</div>
+
+</div>
+
+<div class="article_blurb">
+In the absolute pleasant surprise scenario, the Q3 earnings have declined owing to the Paris attacks. The Jury is still out.
+</div>
+
+<div class="article_body">
+
+<p>
+And the manner with which the stocks have surprised the people is to some extent blamed on the EU dissent that is coming this weekend.
+</p>
+
+<p>
+Here goes some more text that is inline with the news article. I’m just adding some more text here to feel like an article. And then we have some extensive article news on the debacle that is there.
+</p>
+
+<p>
+We all have some gripe on another with the people around us. It is something amazing to do something about it. We all seem to understand the nexus of the culmination between the two parties that are mutuallly in war. We all have something to say about this scenerio.
+</p>
+
+<p>
+Here goes some more text that is inline with the news article. I’m just adding some more text here to feel like an article. And then we have some extensive article news on the debacle that is there.
+</p>
+
+<p>
+We all have some gripe on another with the people around us. It is something amazing to do something about it. We all seem to understand the nexus of the culmination between the two parties that are mutuallly in war. We all have something to say about this scenerio.
+</p>
+</div>
+
+
+<div class="article_pin_container">
+<div class="article_pin_left">
+<div class="article_left_title">
+Pin this article
+</div>
+<div class="article_left_desc">
+You can pin this article and create watchlists using Stockal app.
+</div>
+</div>
+<div class="article_pin_right">
+
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="lower_clear">
+
+</div>
+
+</div>
+
+</div>
+
+
+<script>
+
+$(function(){
+
+var available_searches = ['AAPL','GOOG','RSYM','3M','UIO','RSYM','TKRT','HYMLF','ICPT','LLY','ULTA','ISRG','IMRB','RIT'];
+var window_width = $(window).width();
+
+setTimeout(function(){
+$('#stocks_search_field').autocomplete({source:available_searches});
+},2300);
+
+
+});
+
+
+
+
+$(window).scroll(function () { 
+
+   if ($(window).scrollTop() >= $(document).height() - $(window).height() - 10) {
+    var content = $('.article_single').html();
+	var new_article = document.createElement('div');
+	new_article.setAttribute('class','article_single');
+	new_article.innerHTML = content;
+	new_article.style.marginTop = '92px';
+	
+	$('.lower_right_container').append(new_article);
+   }
+   
+});
+
+var article_open = false;
+
+if(window_width < 480){
+
+$('.stocks_bottom_single').bind('click',function(){
+
+
+var tab_id = $(this).attr('id');
+var mobile_left_id = document.getElementById('mobile_left_articles_'+tab_id);
+
+if (typeof(mobile_left_id) != 'undefined' && mobile_left_id != null)
+{
+
+mobile_left_id.parentNode.removeChild(mobile_left_id);
+article_open = false;
+}else{
+
+
+if(article_open == false){
+var left_articles = $('.lower_left_articles').clone().attr('id','mobile_left_articles_'+tab_id).insertAfter('#'+tab_id);
+
+$('#mobile_left_articles_'+tab_id+' .lower_left_article').bind('click',function(){
+
+var list_index = $(this).index();
+console.log(list_index);
+if(article_open == false){
+$('.article_single').clone().attr('id','carousel_top_article_'+list_index).insertAfter(this);
+$('#carousel_top_article_'+list_index).css({
+'display':'block'
+});
+
+
+article_open = true;
+}
+else{
+
+var mobile_left_articles = document.getElementById('carousel_top_article_'+list_index);
+mobile_left_articles.parentNode.removeChild(mobile_left_articles);
+article_open = false;
+}
+
+console.log(article_open);
+});
+
+
+
+}else{
+
+console.log('article else');
+$('#mobile_left_articles').parentNode.removeChild(this);
+}
+
+}
+
+
+});
+
+}
+
+</script>
+
+
+</body>
+</html>
