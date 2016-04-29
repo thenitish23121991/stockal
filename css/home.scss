@@ -379,6 +379,7 @@ font-family: OpenSans-Regular;
 display:none;
 }
 
+
 @media only screen and (min-width:1024px) and (max-width:1365px){
 
 .mask_inner_left{
@@ -390,9 +391,25 @@ padding-left:9%;
 .mask_right_punchline{
 padding-top:12%;
 }
+.based-on-Social-Media{
+font-size:27px;
+}
+.trending_stocks_date{
+	
+margin-left:1%;
+	
+}
+.lower_headings{
+	width:96%;
+	padding:5% 2% 5% 2%;
+	
 
 }
-
+.trending_stocks_time{
+	font-size:9px;
+	
+}
+}
 
 
 
@@ -423,6 +440,7 @@ font-size:8px;
 .stocks_grid_third_fourth .stocks_grid_text, .stocks_grid_third_fifth .stocks_grid_text{
 left:8px;
 }
+
 
 }
 

@@ -522,6 +522,16 @@ html, body {
 .jcarousel {
   display: none; }
 
+#stocks_bottom_social_media .stocks_bottom_circle {
+  border: solid 3px #f95b25; }
+
+#stocks_bottom_social_media .stocks_bottom_circle_text {
+  padding-top: 8px;
+  color: #f95b25; }
+
+#stocks_bottom_social_media .stocks_bottom_buy {
+  color: #f95b25; }
+
 @media only screen and (min-width: 1024px) and (max-width: 1365px) {
   .stocks_container {
     height: 58px;
