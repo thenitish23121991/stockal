@@ -530,7 +530,15 @@ html, body {
   color: #f95b25; }
 
 #stocks_bottom_social_media .stocks_bottom_buy {
-  color: #f95b25; }
+  color: #f95b25;
+  margin-top: 14px;
+  line-height: 1.2; }
+
+#stocks_bottom_social_media .bottom_circle_inner_text {
+  margin-top: -3px;
+  font-size: 10px;
+  margin-left: 2px;
+  font-family: 'OpenSans-Regular'; }
 
 @media only screen and (min-width: 1024px) and (max-width: 1365px) {
   .stocks_container {
