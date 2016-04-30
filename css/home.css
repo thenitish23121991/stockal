@@ -338,7 +338,7 @@ html, body {
 
 .stocks_grid_single_fourth {
   height: 284px;
-  width: 11.5%;
+  width: 12.6%;
   background: #64a7c2; }
 
 .stocks_grid_single_container:nth-child(2) {
@@ -370,7 +370,7 @@ html, body {
 
 .stocks_grid_second_sixth {
   background-color: #7d5bc3;
-  width: 11%; }
+  width: 12%; }
 
 .stocks_grid_single_container:nth-child(3) {
   height: 220px;
@@ -408,7 +408,7 @@ html, body {
   background-color: #7d5bc3; }
 
 .stocks_grid_third_seventh {
-  width: 6.7%;
+  width: 7.7%;
   background-color: #7d5bc3; }
 
 .stocks_grid_third_seventh .stocks_grid_text, .stocks_grid_third_sixth .stocks_grid_text {
